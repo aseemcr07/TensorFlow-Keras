@@ -23,6 +23,7 @@ model.compile(optimizer="adam",loss="sparse_categorical_crossentropy", metrics=[
 
 model.fit(train_images,train_labels,epochs=5)
 
+# for evaluating the model,check the tested accuracy
 # test_loss,test_acc = model.evaluate(test_images,test_labels)
 # print("Tested acc:",test_acc)
 
